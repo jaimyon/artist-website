@@ -21,7 +21,7 @@
   - Fully responsive from desktop down to small mobile
 
 ## URLs
-- **Production**: (deploy pending — see Deployment section)
+- **Production**: https://fc190a8e-1049-42cc-b743-624e3c6d37ea.vip.gensparksite.com
 - **Local dev**: http://localhost:3000
 
 ## Data & Content Model
@@ -67,11 +67,11 @@ toggle is desired.
 - On mobile, tap "Menu" for the fullscreen nav overlay.
 
 ## Deployment
-- **Platform**: Cloudflare Pages (Hono + Vite)
+- **Platform**: Cloudflare Workers for Platform, via Genspark-managed hosted deploy (`gsk hosted deploy`)
 - **Tech Stack**: Hono (server-rendered HTML), vanilla JS (reveal/parallax/lightbox/filmstrip),
   hand-written CSS design tokens matching the handoff spec, Google Fonts (Instrument Serif /
   Inter Tight / JetBrains Mono)
-- **Status**: Built and running locally; see chat for live deployment status/URL.
+- **Status**: ✅ Live in production at the URL above (static assets, no D1/R2/KV bindings needed)
 - **Last Updated**: 2026-07-16
 
 ## Not Yet Implemented / Next Steps
