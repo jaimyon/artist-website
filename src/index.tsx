@@ -6,20 +6,20 @@ const app = new Hono()
 app.use('/static/*', serveStatic({ root: './' }))
 
 const SOCIAL_LINKS = [
-  { name: 'IMDb', href: 'https://www.imdb.com/', word: true },
+  { name: 'IMDb', href: 'https://www.imdb.com/name/nm1830014/?ref_=nv_sr_srsg_0_tt_0_nm_5_in_0_q_Jaimyon%20Parker', word: true },
   {
     name: 'Instagram',
-    href: 'https://instagram.com/',
+    href: 'https://www.instagram.com/jaimyonparker/',
     path: 'M12 2.2c3.2 0 3.58.01 4.85.07 1.17.05 1.8.25 2.23.41.56.22.96.48 1.38.9.42.42.68.82.9 1.38.16.42.36 1.06.41 2.23.06 1.27.07 1.65.07 4.85s-.01 3.58-.07 4.85c-.05 1.17-.25 1.8-.41 2.23-.22.56-.48.96-.9 1.38-.42.42-.82.68-1.38.9-.42.16-1.06.36-2.23.41-1.27.06-1.65.07-4.85.07s-3.58-.01-4.85-.07c-1.17-.05-1.8-.25-2.23-.41-.56-.22-.96-.48-1.38-.9-.42-.42-.68-.82-.9-1.38-.16-.42-.36-1.06-.41-2.23C2.21 15.58 2.2 15.2 2.2 12s.01-3.58.07-4.85c.05-1.17.25-1.8.41-2.23.22-.56.48-.96.9-1.38.42-.42.82-.68 1.38-.9.42-.16 1.06-.36 2.23-.41C8.42 2.21 8.8 2.2 12 2.2M12 0C8.74 0 8.33.01 7.05.07 5.78.13 4.9.33 4.14.63c-.79.31-1.46.72-2.13 1.38C1.35 2.67.94 3.35.63 4.14.33 4.9.13 5.78.07 7.05.01 8.33 0 8.74 0 12s.01 3.67.07 4.95c.06 1.27.26 2.15.56 2.91.31.79.72 1.46 1.38 2.13.67.66 1.34 1.07 2.13 1.38.76.3 1.64.5 2.91.56C8.33 23.99 8.74 24 12 24s3.67-.01 4.95-.07c1.27-.06 2.15-.26 2.91-.56.79-.31 1.46-.72 2.13-1.38.66-.67 1.07-1.34 1.38-2.13.3-.76.5-1.64.56-2.91.06-1.28.07-1.69.07-4.95s-.01-3.67-.07-4.95c-.06-1.27-.26-2.15-.56-2.91-.31-.79-.72-1.46-1.38-2.13C21.33 1.35 20.65.94 19.86.63 19.1.33 18.22.13 16.95.07 15.67.01 15.26 0 12 0zm0 5.84A6.16 6.16 0 1 0 12 18.16 6.16 6.16 0 0 0 12 5.84zm0 10.16A4 4 0 1 1 12 8a4 4 0 0 1 0 8zm6.4-11.85a1.44 1.44 0 1 1 0 2.88 1.44 1.44 0 0 1 0-2.88z',
   },
   {
     name: 'Facebook',
-    href: 'https://facebook.com/',
+    href: 'https://www.facebook.com/jaimyon.parker.2025/',
     path: 'M22.68 0H1.32C.59 0 0 .59 0 1.32v21.36C0 23.41.59 24 1.32 24h11.5v-9.29H9.69v-3.62h3.13V8.41c0-3.1 1.89-4.79 4.66-4.79 1.33 0 2.47.1 2.8.14v3.24l-1.92.00c-1.51 0-1.8.72-1.8 1.77v2.32h3.6l-.47 3.62h-3.13V24h6.13c.73 0 1.32-.59 1.32-1.32V1.32C24 .59 23.41 0 22.68 0z',
   },
   {
     name: 'TikTok',
-    href: 'https://tiktok.com/',
+    href: 'https://www.tiktok.com/@jaimyon?is_from_webapp=1&sender_device=pc',
     path: 'M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-5.2 1.74 2.89 2.89 0 0 1 2.31-4.64 2.93 2.93 0 0 1 .88.13V9.4a6.84 6.84 0 0 0-1-.05A6.33 6.33 0 0 0 5.8 20.1a6.34 6.34 0 0 0 10.86-4.43V8.66a8.19 8.19 0 0 0 4.77 1.52V6.73a4.81 4.81 0 0 1-1.84-.04z',
   },
 ]
@@ -54,7 +54,7 @@ const CREDITS = [
 
 const ACTING_GALLERY = [
   { id: 'headshot-1', kind: 'Headshot', label: 'Theatrical · 2025', ratio: '3/4', img: '/static/images/acting/headshot-1.jpg' },
-  { id: 'headshot-2', kind: 'Headshot', label: 'Commercial · 2025', ratio: '3/4', img: '/static/images/acting/headshot-2.jpg' },
+  { id: 'headshot-2', kind: 'Headshot', label: 'Theatrical · 2025', ratio: '3/4', img: '/static/images/acting/headshot-2.jpg' },
   { id: 'onset-1', kind: 'On set', label: 'The Long Return', ratio: '4/3', img: '/static/images/acting/onset-1.jpg' },
   { id: 'onset-2', kind: 'On set', label: 'Blueprint', ratio: '4/3', img: '/static/images/acting/onset-2.jpg' },
   { id: 'editorial-1', kind: 'Editorial', label: 'Northlight № 04', ratio: '3/4', img: '/static/images/acting/editorial-1.jpg' },
@@ -423,20 +423,20 @@ function contactHtml() {
     ${sectionHeadHtml(6, 'Contact', 'Available for select work')}
     <h2 class="contact-head reveal">Let's make <em>something</em> — <br/>worth the runtime.</h2>
     <div class="contact-grid">
-      <a class="contact-card reveal" href="mailto:booking@jaimyonparker.com">
+      <a class="contact-card reveal" href="mailto:booking@jaimyon.com">
         <div class="lbl">01 — Acting</div>
         <div><div class="kind">Booking</div><div class="desc">Feature, series, and select commercial inquiries via Harper &amp; Vale.</div></div>
-        <div class="email">booking@jaimyonparker.com</div>
+        <div class="email">booking@jaimyon.com</div>
       </a>
-      <a class="contact-card reveal" style="--rd:80ms" href="mailto:hello@jaimyonparker.com">
+      <a class="contact-card reveal" style="--rd:80ms" href="mailto:photodesign@jaimyon.com">
         <div class="lbl">02 — Creative</div>
         <div><div class="kind">Collaborate</div><div class="desc">Photography, design, and cross-disciplinary projects.</div></div>
-        <div class="email">hello@jaimyonparker.com</div>
+        <div class="email">photodesign@jaimyon.com</div>
       </a>
-      <a class="contact-card reveal" style="--rd:160ms" href="mailto:press@jaimyonparker.com">
+      <a class="contact-card reveal" style="--rd:160ms" href="mailto:press@jaimyon.com">
         <div class="lbl">03 — Press</div>
         <div><div class="kind">Press</div><div class="desc">Interviews, features, and image requests.</div></div>
-        <div class="email">press@jaimyonparker.com</div>
+        <div class="email">press@jaimyon.com</div>
       </a>
       <a class="contact-card reveal" style="--rd:240ms" href="mailto:submissions@skeletonkeypictures.com">
         <div class="lbl">04 — SKP</div>
@@ -449,10 +449,11 @@ function contactHtml() {
       <div>© 2026 Jaimyon Parker · All rights reserved</div>
       <div class="center">Jaimyon Parker</div>
       <div class="socials">
-        <a href="https://www.imdb.com/" target="_blank" rel="noopener noreferrer">IMDb</a>
-        <a href="https://instagram.com/" target="_blank" rel="noopener noreferrer">Instagram</a>
-        <a href="https://facebook.com/" target="_blank" rel="noopener noreferrer">Facebook</a>
-        <a href="https://tiktok.com/" target="_blank" rel="noopener noreferrer">TikTok</a>
+        <a href="https://www.imdb.com/name/nm1830014/?ref_=nv_sr_srsg_0_tt_0_nm_5_in_0_q_Jaimyon%20Parker" target="_blank" rel="noopener noreferrer">IMDb</a>
+        <a href="https://www.instagram.com/jaimyonparker/" target="_blank" rel="noopener noreferrer"> Artist Instagram</a>
+        <a href="https://www.instagram.com/thruthelensofjaimyon/" target="_blank" rel="noopener noreferrer"> Photography & Design Instagram</a>
+        <a href="https://www.facebook.com/jaimyon.parker.2025/" target="_blank" rel="noopener noreferrer">Facebook</a>
+        <a href="https://www.tiktok.com/@jaimyon?is_from_webapp=1&sender_device=pc" target="_blank" rel="noopener noreferrer">TikTok</a>
       </div>
     </footer>
   </section>`
