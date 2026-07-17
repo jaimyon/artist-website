@@ -34,11 +34,11 @@ function socialLinksHtml(size = 14) {
 }
 
 const NAV_SECTIONS = [
-  { id: 'about', label: 'About' },
   { id: 'acting', label: 'Acting' },
   { id: 'skp', label: 'Skeleton Key' },
   { id: 'photography', label: 'Photography' },
   { id: 'design', label: 'Design' },
+  { id: 'about', label: 'About' },
 ]
 
 const CREDITS = [
@@ -151,7 +151,7 @@ function navHtml() {
 }
 
 function sectionRailHtml() {
-  const items = [{ id: 'about', label: '01 About' }, { id: 'acting', label: '02 Acting' }, { id: 'skp', label: '03 Skeleton Key' }, { id: 'photography', label: '04 Photography' }, { id: 'design', label: '05 Design' }]
+  const items = [{ id: 'acting', label: '01 Acting' }, { id: 'skp', label: '02 Skeleton Key' }, { id: 'photography', label: '03 Photography' }, { id: 'design', label: '04 Design' }, { id: 'about', label: '05 About' }]
   const links = items
     .map((it) => `<a href="#${it.id}" data-target="${it.id}"><span>${it.label}</span></a>`)
     .join('')
@@ -204,28 +204,30 @@ function heroHtml() {
 function aboutHtml() {
   return `
   <section class="about" id="about" data-section="about">
-    ${sectionHeadHtml(1, 'About', 'Bio · Ethos')}
-    <div class="about-portrait reveal">
-      <img src="/static/images/brand/about-portrait.jpg" alt="Editorial portrait of Jaimyon Parker" loading="lazy" />
-    </div>
-    <div class="about-text">
-      <p class="lede reveal">A storyteller working across the frame — <em>on it, behind it, and around it.</em></p>
-      <p class="body-lg reveal" style="--rd:120ms">
-        Jaimyon Parker is an actor and multidisciplinary artist whose practice moves fluidly
-        between performance, production, and visual craft. Founder of Skeleton Key Pictures,
-        a company built to develop patient, character-first cinema. His photography and
-        graphic work extend the same instinct — quiet observation, cinematic composition, and
-        a careful eye for the interior life of things.
-      </p>
-      <p class="body-lg reveal" style="--rd:220ms">
-        Based between Los Angeles and New York. Available for select collaborations across
-        film, television, editorial, and brand.
-      </p>
-      <div class="about-roles">
-        <div class="about-role reveal">Discipline 01<strong>Screen Acting</strong></div>
-        <div class="about-role reveal" style="--rd:80ms">Discipline 02<strong>Producing</strong></div>
-        <div class="about-role reveal" style="--rd:160ms">Discipline 03<strong>Photography</strong></div>
-        <div class="about-role reveal" style="--rd:240ms">Discipline 04<strong>Graphic Design</strong></div>
+    ${sectionHeadHtml(5, 'About', 'Bio · Ethos')}
+    <div class="about-body">
+      <div class="about-portrait reveal">
+        <img src="/static/images/brand/about-portrait.jpg" alt="Editorial portrait of Jaimyon Parker" loading="lazy" />
+      </div>
+      <div class="about-text">
+        <p class="lede reveal">A storyteller working across the frame — <em>on it, behind it, and around it.</em></p>
+        <p class="body-lg reveal" style="--rd:120ms">
+          Jaimyon Parker is an actor and multidisciplinary artist whose practice moves fluidly
+          between performance, production, and visual craft. Founder of Skeleton Key Pictures,
+          a company built to develop patient, character-first cinema. His photography and
+          graphic work extend the same instinct — quiet observation, cinematic composition, and
+          a careful eye for the interior life of things.
+        </p>
+        <p class="body-lg reveal" style="--rd:220ms">
+          Based between Los Angeles and New York. Available for select collaborations across
+          film, television, editorial, and brand.
+        </p>
+        <div class="about-roles">
+          <div class="about-role reveal">Discipline 01<strong>Screen Acting</strong></div>
+          <div class="about-role reveal" style="--rd:80ms">Discipline 02<strong>Producing</strong></div>
+          <div class="about-role reveal" style="--rd:160ms">Discipline 03<strong>Photography</strong></div>
+          <div class="about-role reveal" style="--rd:240ms">Discipline 04<strong>Graphic Design</strong></div>
+        </div>
       </div>
     </div>
   </section>`
@@ -270,7 +272,7 @@ function actingHtml() {
   ).join('')
   return `
   <section class="acting" id="acting" data-section="acting">
-    ${sectionHeadHtml(2, 'Acting', 'Reel · Selected credits · Representation')}
+    ${sectionHeadHtml(1, 'Acting', 'Reel · Selected credits · Representation')}
 
     <div class="acting-hero">
       <div class="reveal">
@@ -332,7 +334,7 @@ function skpHtml() {
   ).join('')
   return `
   <section class="skp" id="skp" data-section="skp">
-    ${sectionHeadHtml(3, 'Skeleton Key Pictures', 'Production company · Est. 2019')}
+    ${sectionHeadHtml(2, 'Skeleton Key Pictures', 'Production company · Est. 2019')}
 
     <div class="skp-mark reveal">
       <div class="key"></div>
@@ -377,7 +379,7 @@ function photographyHtml() {
   }).join('')
   return `
   <section class="photography" id="photography" data-section="photography">
-    ${sectionHeadHtml(4, 'Photography', 'Curated series · 2021–2025')}
+    ${sectionHeadHtml(3, 'Photography', 'Curated series · 2021–2025')}
     ${seriesHtml}
   </section>`
 }
@@ -392,7 +394,7 @@ function designHtml() {
   ).join('')
   return `
   <section class="design" id="design" data-section="design">
-    ${sectionHeadHtml(5, 'Graphic Design', 'Identity · Editorial · Film titles')}
+    ${sectionHeadHtml(4, 'Graphic Design', 'Identity · Editorial · Film titles')}
     <div class="design-grid">${items}</div>
   </section>`
 }
@@ -466,11 +468,11 @@ function pageHtml() {
   ${navHtml()}
   ${sectionRailHtml()}
   ${heroHtml()}
-  ${aboutHtml()}
   ${actingHtml()}
   ${skpHtml()}
   ${photographyHtml()}
   ${designHtml()}
+  ${aboutHtml()}
   ${contactHtml()}
 
   <div id="lightbox-root"></div>
