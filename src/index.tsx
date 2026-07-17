@@ -223,7 +223,7 @@ function aboutHtml() {
           film, television, editorial, and brand.
         </p>
         <div class="about-roles">
-          <div class="about-role reveal">Discipline 01<strong>Screen Acting</strong></div>
+          <div class="about-role reveal">Discipline 01<strong>Acting</strong></div>
           <div class="about-role reveal" style="--rd:80ms">Discipline 02<strong>Producing</strong></div>
           <div class="about-role reveal" style="--rd:160ms">Discipline 03<strong>Photography</strong></div>
           <div class="about-role reveal" style="--rd:240ms">Discipline 04<strong>Graphic Design</strong></div>
