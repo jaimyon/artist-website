@@ -87,6 +87,27 @@
     });
   }
 
+  /* ---- Acting reel switcher: swap poster/label/duration without changing layout ---- */
+  var reelMenu = document.querySelector(".reel-menu");
+  if (reelMenu) {
+    var reelEl = document.querySelector(".reel");
+    var reelImg = reelEl ? reelEl.querySelector("img") : null;
+    var reelLabel = reelEl ? reelEl.querySelector(".reel-label") : null;
+    var reelDuration = reelEl ? reelEl.querySelector(".reel-duration") : null;
+    reelMenu.addEventListener("click", function (e) {
+      var btn = e.target.closest(".reel-menu-item");
+      if (!btn || !reelEl) return;
+      var items = reelMenu.querySelectorAll(".reel-menu-item");
+      items.forEach(function (it) { it.classList.remove("active"); });
+      btn.classList.add("active");
+      var label = btn.getAttribute("data-reel-label") || "";
+      if (reelImg) reelImg.setAttribute("src", btn.getAttribute("data-reel-img") || "");
+      if (reelLabel) reelLabel.textContent = "REEL \u00b7 " + label;
+      if (reelDuration) reelDuration.textContent = btn.getAttribute("data-reel-duration") || "";
+      reelEl.setAttribute("aria-label", "Play " + label);
+    });
+  }
+
   /* ---- Acting filmstrip: nav buttons + drag-to-scroll ---- */
   var rail = document.querySelector(".acting-gallery-rail");
   if (rail) {

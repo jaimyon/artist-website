@@ -67,6 +67,14 @@ const ACTING_GALLERY = [
   { id: 'onset-5', kind: 'On set', label: 'Interior. Kitchen.', ratio: '4/3', img: '/static/images/acting/onset-5.jpg' },
 ]
 
+const REEL_OPTIONS = [
+  { id: 'showreel-2025', label: '2025 Showreel', duration: '02:48', img: '/static/images/acting/onset-1.jpg' },
+  { id: 'the-long-return', label: 'The Long Return', duration: '01:32', img: '/static/images/acting/onset-1.jpg' },
+  { id: 'blueprint', label: 'Blueprint', duration: '01:58', img: '/static/images/acting/onset-2.jpg' },
+  { id: 'nightbloom', label: 'Nightbloom', duration: '02:10', img: '/static/images/acting/onset-3.jpg' },
+  { id: 'halcyon', label: 'Halcyon', duration: '01:45', img: '/static/images/acting/onset-4.jpg' },
+]
+
 const SLATE = [
   { title: 'The Long Return', meta: 'Feature · Dir. M. Okafor · 2025', status: 'In post', cls: '' },
   { title: 'Salt of the Land', meta: 'Feature · Dir. R. Adeyemi', status: 'In development', cls: 'dev' },
@@ -260,6 +268,13 @@ function actingGalleryHtml() {
   </div>`
 }
 
+function reelMenuHtml() {
+  const items = REEL_OPTIONS.map(
+    (r, i) => `<button type="button" class="reel-menu-item${i === 0 ? ' active' : ''}" data-reel-id="${r.id}" data-reel-img="${r.img}" data-reel-label="${r.label}" data-reel-duration="${r.duration}">${r.label}</button>`
+  ).join('')
+  return `<div class="reel-menu reveal" style="--rd:240ms" role="tablist" aria-label="Choose a reel to preview">${items}</div>`
+}
+
 function actingHtml() {
   const rows = CREDITS.map(
     (c) => `
@@ -279,11 +294,14 @@ function actingHtml() {
         <span class="eyebrow"><span class="dot"></span>2025 Showreel</span>
         <h2 class="display-3">Ten years, twenty roles, one throughline — <em style="font-style:italic;opacity:.55">presence.</em></h2>
       </div>
-      <div class="reel reveal" style="--rd:180ms" role="button" tabindex="0" aria-label="Play 2025 showreel">
-        <img src="/static/images/acting/onset-1.jpg" alt="" />
-        <span class="reel-label">REEL · 2025</span>
-        <span class="reel-duration">02:48</span>
-        <div class="play">Play</div>
+      <div class="reel-wrap">
+        <div class="reel reveal" style="--rd:180ms" role="button" tabindex="0" aria-label="Play ${REEL_OPTIONS[0].label}">
+          <img src="${REEL_OPTIONS[0].img}" alt="" />
+          <span class="reel-label">REEL · ${REEL_OPTIONS[0].label}</span>
+          <span class="reel-duration">${REEL_OPTIONS[0].duration}</span>
+          <div class="play">Play</div>
+        </div>
+        ${reelMenuHtml()}
       </div>
     </div>
 
