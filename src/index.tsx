@@ -42,14 +42,14 @@ const NAV_SECTIONS = [
 ]
 
 const CREDITS = [
-  { project: 'The Long Return', role: 'Elias Vance', director: 'M. Okafor', year: '2025', type: 'Feature' },
-  { project: 'Blueprint', role: 'Detective Reyes', director: 'S. Nakamura', year: '2024', type: 'Series' },
-  { project: 'Nightbloom', role: 'Sam', director: 'K. Delacroix', year: '2024', type: 'Feature' },
-  { project: 'Interior. Kitchen. Dawn.', role: 'Lead', director: 'R. Adeyemi', year: '2023', type: 'Short' },
-  { project: 'Halcyon', role: 'August Wren', director: 'L. Marquez', year: '2023', type: 'Feature' },
-  { project: "The Cartographer's Wife", role: 'Theo', director: 'J. Bishara', year: '2022', type: 'Feature' },
-  { project: 'Signal / Noise', role: 'Recurring — Mateo', director: 'Various', year: '2022', type: 'Series' },
-  { project: 'A Room in Salamanca', role: 'Lead', director: 'P. Iyer', year: '2021', type: 'Short' },
+  { project: 'All Rise', role: 'Co-Star', production: 'OWN Productions', type: 'Series' },
+  { project: 'Better Things', role: 'Guest Star', production: 'FX Productions', type: 'Series' },
+  { project: 'In The Cut', role: 'Recurring', production: 'Bent Outta Shape Productions', type: 'Series' },
+  { project: 'Bones', role: 'Guest Star', production: '20th Century Fox', type: 'Series' },
+  { project: 'Transgress', role: 'Supporting', production: 'Silver Lining Entertainment', type: 'Short' },
+  { project: 'Angels Ladder', role: 'Supporting', production: 'Hozgoz Entertainment', type: 'Short' },
+  { project: 'Dead Cruelty', role: 'Supporting', production: 'DOB Productions', type: 'Feature' },
+  { project: 'I Got The Hook Up 2', role: 'Supporting', production: 'Genius Minds', type: 'Feature' },
 ]
 
 const ACTING_GALLERY = [
