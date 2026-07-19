@@ -42,6 +42,8 @@ const NAV_SECTIONS = [
 ]
 
 const CREDITS = [
+  { project: 'Therapy', role: 'Supporting', production: 'Skeleton Key Pictures', type: 'Short' },
+  { project: 'The Silent Contender', role: 'Supporting', production: 'Write Time Media', type: 'Short' },
   { project: 'All Rise', role: 'Co-Star', production: 'OWN Productions', type: 'Series' },
   { project: 'Better Things', role: 'Guest Star', production: 'FX Productions', type: 'Series' },
   { project: 'In The Cut', role: 'Recurring', production: 'Bent Outta Shape Productions', type: 'Series' },
@@ -53,8 +55,8 @@ const CREDITS = [
 ]
 
 const ACTING_GALLERY = [
-  { id: 'headshot-1', kind: 'Headshot', label: 'Theatrical · 2025', ratio: '3/4', img: '/static/images/acting/headshot-1.jpg' },
-  { id: 'headshot-2', kind: 'Headshot', label: 'Theatrical · 2025', ratio: '3/4', img: '/static/images/acting/headshot-2.jpg' },
+  { id: 'headshot-1', kind: 'Headshot', label: 'Photographer: Michael Roud', ratio: '3/4', img: '/static/images/acting/headshot-1.jpg' },
+  { id: 'headshot-2', kind: 'Headshot', label: 'Photographer: Inda Reid', ratio: '3/4', img: '/static/images/acting/headshot-2.jpg' },
   { id: 'onset-1', kind: 'On set', label: 'The Long Return', ratio: '4/3', img: '/static/images/acting/onset-1.jpg' },
   { id: 'onset-2', kind: 'On set', label: 'Blueprint', ratio: '4/3', img: '/static/images/acting/onset-2.jpg' },
   { id: 'editorial-1', kind: 'Editorial', label: 'Northlight № 04', ratio: '3/4', img: '/static/images/acting/editorial-1.jpg' },
