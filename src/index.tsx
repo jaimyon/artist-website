@@ -283,8 +283,7 @@ function actingHtml() {
       <tr>
         <td class="project">${c.project}<span class="type-tag">${c.type}</span></td>
         <td class="role hide-sm">${c.role}</td>
-        <td class="director hide-sm">${c.director}</td>
-        <td class="year">${c.year}</td>
+        <td class="director">${c.production}</td>
       </tr>`
   ).join('')
   return `
@@ -310,7 +309,7 @@ function actingHtml() {
     <div class="reveal">
       <div class="eyebrow"><span class="dot"></span>Selected credits</div>
       <table class="credits">
-        <thead><tr><th>Project</th><th class="hide-sm">Role</th><th class="hide-sm">Director</th><th>Year</th></tr></thead>
+        <thead><tr><th>Project</th><th class="hide-sm">Role</th><th>Production</th></tr></thead>
         <tbody>${rows}</tbody>
       </table>
     </div>
