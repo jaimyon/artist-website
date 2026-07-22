@@ -71,7 +71,7 @@ const ACTING_GALLERY = [
 
 const REEL_OPTIONS = [
   { id: 'acting-reel', label: 'Acting Reel', duration: '01:59', img: 'https://i.ytimg.com/vi/4rKW78wrz18/maxresdefault.jpg', youtubeId: '4rKW78wrz18' },
-  { id: 'better-things', label: 'Better Things | FX', duration: '04:18', img: '/static/images/acting/onset-1.jpg' },
+  { id: 'better-things', label: 'Better Things | FX', duration: '04:18', img: 'https://i.ytimg.com/vi/W6z46fLzoMc/maxresdefault.jpg', youtubeId: 'W6z46fLzoMc' },
   { id: 'bones', label: 'Bones | FOX', duration: '00:58', img: '/static/images/acting/onset-2.jpg' },
   { id: 'in-the-cut', label: 'In The Cut | BOUNCE', duration: '02:13', img: '/static/images/acting/onset-3.jpg' },
   { id: 'therapy', label: 'Therapy | SKP', duration: '06:30', img: '/static/images/acting/onset-4.jpg' },
