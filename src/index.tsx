@@ -67,6 +67,11 @@ const ACTING_GALLERY = [
   { id: 'onset-4', kind: 'On set', label: 'Halcyon', ratio: '4/3', img: '/static/images/acting/onset-4.jpg' },
   { id: 'headshot-3', kind: 'Headshot', label: 'Character · 2024', ratio: '3/4', img: '/static/images/acting/headshot-3.jpg' },
   { id: 'onset-5', kind: 'On set', label: 'Interior. Kitchen.', ratio: '4/3', img: '/static/images/acting/onset-5.jpg' },
+  { id: 'editorial-3', kind: 'Editorial', label: 'Quiet Room', ratio: '3/4', img: '/static/images/acting/editorial-3.jpg' },
+  { id: 'modeling-3', kind: 'Modeling', label: 'Studio Line', ratio: '3/4', img: '/static/images/acting/modeling-3.jpg' },
+  { id: 'headshot-4', kind: 'Headshot', label: 'Character · 2025', ratio: '3/4', img: '/static/images/acting/headshot-4.jpg' },
+  { id: 'headshot-5', kind: 'Headshot', label: 'Close Coverage', ratio: '3/4', img: '/static/images/acting/headshot-5.jpg' },
+  { id: 'modeling-4', kind: 'Modeling', label: 'Coastal AW25', ratio: '3/4', img: '/static/images/acting/modeling-4.jpg' },
 ]
 
 const REEL_OPTIONS = [
