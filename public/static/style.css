@@ -487,6 +487,8 @@ h1, h2, h3, h4 { font-family: var(--display); font-weight: 400; margin: 0; line-
   z-index: 1;
 }
 .reel:hover { transform: scale(0.99); }
+.reel.is-playing { cursor: default; }
+.reel.is-playing:hover { transform: none; }
 .reel .play {
   position: relative;
   z-index: 2;

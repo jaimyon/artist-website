@@ -70,7 +70,7 @@ const ACTING_GALLERY = [
 ]
 
 const REEL_OPTIONS = [
-  { id: 'acting-reel', label: 'Acting Reel', duration: '01:59', img: '/static/images/acting/onset-1.jpg' },
+  { id: 'acting-reel', label: 'Acting Reel', duration: '01:59', img: 'https://i.ytimg.com/vi/4rKW78wrz18/maxresdefault.jpg', youtubeId: '4rKW78wrz18' },
   { id: 'better-things', label: 'Better Things | FOX', duration: '04:18', img: '/static/images/acting/onset-1.jpg' },
   { id: 'bones', label: 'Bones | FOX', duration: '00:58', img: '/static/images/acting/onset-2.jpg' },
   { id: 'in-the-cut', label: 'In The Cut | BOUNCE', duration: '02:13', img: '/static/images/acting/onset-3.jpg' },
@@ -272,7 +272,7 @@ function actingGalleryHtml() {
 
 function reelMenuHtml() {
   const items = REEL_OPTIONS.map(
-    (r, i) => `<button type="button" class="reel-menu-item${i === 0 ? ' active' : ''}" data-reel-id="${r.id}" data-reel-img="${r.img}" data-reel-label="${r.label}" data-reel-duration="${r.duration}">${r.label}</button>`
+    (r, i) => `<button type="button" class="reel-menu-item${i === 0 ? ' active' : ''}" data-reel-id="${r.id}" data-reel-img="${r.img}" data-reel-label="${r.label}" data-reel-duration="${r.duration}"${r.youtubeId ? ` data-reel-youtube="${r.youtubeId}"` : ''}>${r.label}</button>`
   ).join('')
   return `<div class="reel-menu reveal" style="--rd:240ms" role="tablist" aria-label="Choose a reel to preview">${items}</div>`
 }
@@ -296,7 +296,7 @@ function actingHtml() {
         <h2 class="display-3">Ten years, twenty roles, one throughline — <em style="font-style:italic;opacity:.55">presence.</em></h2>
       </div>
       <div class="reel-wrap">
-        <div class="reel reveal" style="--rd:180ms" role="button" tabindex="0" aria-label="Play ${REEL_OPTIONS[0].label}">
+        <div class="reel reveal" style="--rd:180ms" role="button" tabindex="0" aria-label="Play ${REEL_OPTIONS[0].label}"${REEL_OPTIONS[0].youtubeId ? ` data-youtube-id="${REEL_OPTIONS[0].youtubeId}"` : ''}>
           <img src="${REEL_OPTIONS[0].img}" alt="" />
           <span class="reel-label">REEL · ${REEL_OPTIONS[0].label}</span>
           <span class="reel-duration">${REEL_OPTIONS[0].duration}</span>
