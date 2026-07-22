@@ -70,11 +70,11 @@ const ACTING_GALLERY = [
 ]
 
 const REEL_OPTIONS = [
-  { id: 'showreel-2025', label: '2025 Showreel', duration: '02:48', img: '/static/images/acting/onset-1.jpg' },
-  { id: 'the-long-return', label: 'The Long Return', duration: '01:32', img: '/static/images/acting/onset-1.jpg' },
-  { id: 'blueprint', label: 'Blueprint', duration: '01:58', img: '/static/images/acting/onset-2.jpg' },
-  { id: 'nightbloom', label: 'Nightbloom', duration: '02:10', img: '/static/images/acting/onset-3.jpg' },
-  { id: 'halcyon', label: 'Halcyon', duration: '01:45', img: '/static/images/acting/onset-4.jpg' },
+  { id: 'acting-reel', label: 'Acting Reel', duration: '01:59', img: '/static/images/acting/onset-1.jpg' },
+  { id: 'better-things', label: 'Better Things | FOX', duration: '04:18', img: '/static/images/acting/onset-1.jpg' },
+  { id: 'bones', label: 'Bones | FOX', duration: '00:58', img: '/static/images/acting/onset-2.jpg' },
+  { id: 'in-the-cut', label: 'In The Cut | BOUNCE', duration: '02:13', img: '/static/images/acting/onset-3.jpg' },
+  { id: 'therapy', label: 'Therapy | SKP', duration: '06:30', img: '/static/images/acting/onset-4.jpg' },
 ]
 
 const SLATE = [
