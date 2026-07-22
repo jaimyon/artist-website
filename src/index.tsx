@@ -318,22 +318,22 @@ function actingHtml() {
 
     <div class="reps">
       <div class="rep-card reveal">
-        <div class="lbl">Talent (US)</div>
-        <div class="name">Harper &amp; Vale</div>
-        <div class="co">Lena Ostrom · Partner</div>
-        <a href="mailto:lena@harpervale.co">lena@harpervale.co</a>
+        <div class="lbl">Management (US)</div>
+        <div class="name">ATN Entertainment</div>
+        <div class="co">Jennifer DaRe</div>
+        <a href="mailto:jennifer@atnentertainment.com">jennifer@atnentertainment.com</a>
       </div>
       <div class="rep-card reveal" style="--rd:100ms">
-        <div class="lbl">Management</div>
-        <div class="name">Northwind Company</div>
-        <div class="co">David Auerbach</div>
-        <a href="mailto:david@northwind.co">david@northwind.co</a>
+        <div class="lbl">Agent</div>
+        <div class="name">Pastorini Bosby</div>
+        <div class="co">Tierra Hollis</div>
+        <a href="mailto:tierra@pbtalent.com">tierra@pbtalent.com</a>
       </div>
       <div class="rep-card reveal" style="--rd:200ms">
         <div class="lbl">Legal</div>
-        <div class="name">Kessler, Onwu &amp; Reyes</div>
-        <div class="co">Maya Onwu, Esq.</div>
-        <a href="mailto:m.onwu@kor.legal">m.onwu@kor.legal</a>
+        <div class="name">Dieterich & Associates</div>
+        <div class="co">Christopher Dieterich</div>
+        <a href="mailto:venturelaw@gmail.com">venturelaw@gmail.com</a>
       </div>
     </div>
   </section>`
