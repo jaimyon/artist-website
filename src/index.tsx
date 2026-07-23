@@ -327,18 +327,21 @@ function actingHtml() {
         <div class="name">ATN Entertainment</div>
         <div class="co">Jennifer DaRe</div>
         <a href="mailto:jennifer@atnentertainment.com">jennifer@atnentertainment.com</a>
+        <div class="co">P: 323.230.5360</div>
       </div>
       <div class="rep-card reveal" style="--rd:100ms">
         <div class="lbl">Agent</div>
         <div class="name">Pastorini Bosby</div>
         <div class="co">Tierra Hollis</div>
         <a href="mailto:tierra@pbtalent.com">tierra@pbtalent.com</a>
+        <div class="co">P: 713.266.4488</div>
       </div>
       <div class="rep-card reveal" style="--rd:200ms">
         <div class="lbl">Legal</div>
         <div class="name">Dieterich & Associates</div>
         <div class="co">Christopher Dieterich</div>
         <a href="mailto:venturelaw@gmail.com">venturelaw@gmail.com</a>
+        <div class="co">P: 310.628.8384</div>
       </div>
     </div>
   </section>`
