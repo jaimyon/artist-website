@@ -623,8 +623,11 @@ h1, h2, h3, h4 { font-family: var(--display); font-weight: 400; margin: 0; line-
   display: flex; align-items: baseline; justify-content: space-between; gap: 12px;
   font-family: var(--label); font-size: 10px; letter-spacing: 0.18em; text-transform: uppercase; flex-shrink: 0;
 }
-.acting-gallery-item figcaption .k { color: var(--accent); }
-.acting-gallery-item figcaption .l { color: var(--fg-dim); text-align: right; }
+.acting-gallery-item figcaption .k { color: var(--accent); flex-shrink: 0; }
+.acting-gallery-item figcaption .l {
+  color: var(--fg-dim); text-align: right; min-width: 0;
+  white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+}
 
 .acting-gallery-endcap {
   flex: 0 0 auto; width: 60px; display: flex; align-items: center; justify-content: center;
