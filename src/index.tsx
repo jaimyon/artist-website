@@ -90,10 +90,12 @@ const SLATE = [
 ]
 
 const PRESS = [
-  { fest: 'Sundance', note: 'Official Selection — 2024' },
-  { fest: 'Rotterdam', note: 'Bright Future — 2024' },
-  { fest: 'SXSW', note: 'Narrative Spotlight — 2023' },
-  { fest: 'TIFF', note: 'Discovery — 2022' },
+  { fest: 'Los Angeles Short Film Awards', note: '2026' },
+  { fest: 'Indie Night Film Festival', note: '2025' },
+  { fest: 'San Diego Indipendent Cinema Awards', note: '2025' },
+  { fest: 'Atlanta Cinema Awards', note: '2024' },
+  { fest: 'Hollywood Best Indie Film Awards', note: '2024' },
+  { fest: 'Prague International Film Awards', note: '2024' },
 ]
 
 const SERIES = [
