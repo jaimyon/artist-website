@@ -229,12 +229,12 @@ function aboutHtml() {
         <p class="body-lg reveal" style="--rd:120ms">
           Jaimyon Parker is an actor and multidisciplinary artist whose practice moves fluidly
           between performance, production, and visual craft. Founder of Skeleton Key Pictures,
-          a company built to develop patient, character-first cinema. His photography and
+          a company built to develop patient, character-first art. His photography and
           graphic work extend the same instinct — quiet observation, cinematic composition, and
           a careful eye for the interior life of things.
         </p>
         <p class="body-lg reveal" style="--rd:220ms">
-          Based between Los Angeles and New York. Available for select collaborations across
+          Based between Los Angeles, Texas, and New York. Available for select collaborations across
           film, television, editorial, and brand.
         </p>
         <div class="about-roles">
@@ -298,7 +298,7 @@ function actingHtml() {
     <div class="acting-hero">
       <div class="reveal">
         <span class="eyebrow"><span class="dot"></span>2025 Showreel</span>
-        <h2 class="display-3">Ten years, twenty roles, one throughline — <em style="font-style:italic;opacity:.55">presence.</em></h2>
+        <h2 class="display-3">Doesn't matter what medium, location, or audience, for an artist, it's always about <em style="font-style:italic;opacity:.55">the truth.</em></h2>
       </div>
       <div class="reel-wrap">
         <div class="reel reveal" style="--rd:180ms" role="button" tabindex="0" aria-label="Play ${REEL_OPTIONS[0].label}"${REEL_OPTIONS[0].youtubeId ? ` data-youtube-id="${REEL_OPTIONS[0].youtubeId}"` : ''}>
@@ -370,8 +370,8 @@ function skpHtml() {
 
     <div class="skp-hero">
       <div class="skp-manifesto reveal">
-        <p>We make <em>patient</em> cinema — films that trust their audience and stay with their characters long after the scene should end.</p>
-        <p class="sub">Founded in 2019, Skeleton Key develops and produces feature films and limited series with an emphasis on first- and second-time directors, character-driven scripts, and long collaborations.</p>
+        <p>We make <em>impactful</em> art on all mediums. Our work trusts the audience and creates conversation inspiriring characters that stay with you long after the show.</p>
+        <p class="sub">Founded in 2013, Skeleton Key Pictures develops and produces films, series, stage productions, and graphic presentations with an emphasis on storytelling and vision.</p>
       </div>
       <div class="reveal" style="--rd:160ms">
         <div class="eyebrow"><span class="dot"></span>Current slate</div>
