@@ -83,10 +83,10 @@ const REEL_OPTIONS = [
 ]
 
 const SLATE = [
-  { title: 'The Long Return', meta: 'Feature · Dir. M. Okafor · 2025', status: 'In post', cls: '' },
-  { title: 'Salt of the Land', meta: 'Feature · Dir. R. Adeyemi', status: 'In development', cls: 'dev' },
-  { title: 'Interior. Kitchen. Dawn.', meta: 'Short · Dir. R. Adeyemi · 2023', status: 'Released', cls: 'released' },
-  { title: 'Untitled Iyer Project', meta: 'Limited Series · Dir. P. Iyer', status: 'In development', cls: 'dev' },
+  { title: 'Therapy', meta: 'Short · Dir. Elana Luo · 2024', status: 'Festival Run', cls: '' },
+  { title: 'Devil In Her Bed', meta: 'Short · Dirs. M. Blessing &amp; J. Parker', status: 'Released', cls: 'released' },
+  { title: 'Guilty', meta: 'Stage Production · Stella Adler Theatre · 2018', status: 'Released', cls: 'released' },
+  { title: 'Bus Stops', meta: 'Stage Production · *Mult. NAACP Theatre Award Winner - Hollywood Meta Theatre', status: 'Released', cls: 'dev' },
 ]
 
 const PRESS = [
