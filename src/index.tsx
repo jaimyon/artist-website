@@ -64,7 +64,7 @@ const ACTING_GALLERY = [
   { id: 'modeling-2', kind: 'Modeling', label: '', ratio: '3/4', img: '/static/images/acting/headshot-3.jpg' },
   { id: 'headshot-3', kind: 'Headshot', label: "Photo: Inda Reid", ratio: '3/4', img: '/static/images/acting/editorial-2.jpg' },
   { id: 'modeling-1', kind: 'Modeling', label: '', ratio: '3/4', img: '/static/images/acting/modeling-2.jpg' },
-  { id: 'onset-1', kind: 'On Stage', label: 'NAACP Theatre Award Winner: BUS STOPS', ratio: '4/3', img: '/static/images/acting/onset-1.jpg' },
+  { id: 'onset-1', kind: 'On Set', label: 'IN THE CUT', ratio: '4/3', img: '/static/images/acting/onset-1.jpg' },
   { id: 'modeling-3', kind: 'Modeling', label: '', ratio: '3/4', img: '/static/images/acting/editorial-3.jpg' },
   { id: 'headshot-4', kind: 'Headshot', label: 'Photo: Inda Reid', ratio: '3/4', img: '/static/images/acting/modeling-3.jpg' },
   { id: 'onset-2', kind: 'On Set', label: 'WIND IN THE WILLOW TREE', ratio: '4/3', img: '/static/images/acting/onset-2.jpg' },
@@ -86,22 +86,23 @@ const SLATE = [
   { title: 'Therapy', meta: 'Short · Dir. Elana Luo · 2024', status: 'Festival Run', cls: '' },
   { title: 'Devil In Her Bed', meta: 'Short · Dirs. M. Blessing &amp; J. Parker', status: 'Released', cls: 'released' },
   { title: 'Guilty', meta: 'Stage Production · Stella Adler Theatre · 2018', status: 'Released', cls: 'released' },
-  { title: 'Bus Stops', meta: 'Stage Production · *Mult. NAACP Theatre Award Winner - Hollywood Meta Theatre', status: 'Released', cls: 'dev' },
+  { title: 'Wind In The Willow Tree', meta: 'Web Series', status: 'Released', cls: 'dev' },
 ]
 
 const PRESS = [
-  { fest: 'Los Angeles Short Film Awards', note: '2026' },
-  { fest: 'Indie Night Film Festival', note: '2025' },
-  { fest: 'San Diego Indipendent Cinema Awards', note: '2025' },
-  { fest: 'Atlanta Cinema Awards', note: '2024' },
-  { fest: 'Hollywood Best Indie Film Awards', note: '2024' },
-  { fest: 'Prague International Film Awards', note: '2024' },
+  { fest: 'Los Angeles Short Film Awards', note: 'Best Comedy - 2026' },
+  { fest: 'Indie Night Film Festival', note: 'Official Selection - 2025' },
+  { fest: 'San Diego Indipendent Cinema Awards', note: 'Official Selection - 2025' },
+  { fest: 'Atlanta Cinema Awards', note: 'Official Selection - 2024' },
+  { fest: 'Hollywood Best Indie Film Awards', note: 'Official Selection - 2024' },
+  { fest: 'Prague International Film Awards', note: 'Official Selection - 2024' },
+  { fest: 'Hollywood Just4Shorts', note: 'Best Horror Short - 2023' },
 ]
 
 const SERIES = [
   {
     num: 'S01',
-    title: 'Interior States',
+    title: 'People',
     year: '2024',
     loc: 'Los Angeles',
     layout: 'layout-a',
@@ -114,7 +115,7 @@ const SERIES = [
   },
   {
     num: 'S02',
-    title: 'Portraits, Between Takes',
+    title: 'Nature',
     year: '2023–24',
     loc: 'NYC · LA · Mexico City',
     layout: 'layout-b',
@@ -127,7 +128,7 @@ const SERIES = [
   },
   {
     num: 'S03',
-    title: 'Salt / Light',
+    title: 'Art/Light/Shadow',
     year: '2023',
     loc: 'Baja California',
     layout: 'layout-c',
