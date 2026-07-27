@@ -146,6 +146,9 @@ const SERIES = [
       '/static/images/photo/s03-2.jpg',
       '/static/images/photo/s03-3.jpg',
       '/static/images/photo/s03-4.jpg',
+      '/static/images/photo/s03-5.jpg',
+      '/static/images/photo/s03-6.jpg',
+      '/static/images/photo/s03-7.jpg',
     ],
   },
 ]
