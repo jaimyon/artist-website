@@ -155,13 +155,13 @@ const SERIES = [
 ]
 
 const DESIGN_WORK = [
-  { name: 'Bus Stops', tag: 'Theatre / Poster', img: '/static/images/design/bus-stops.jpg' },
+  { name: 'Bus Stops', tag: 'Theatre / FB Cover Series', img: '/static/images/design/bus-stops.jpg' },
   { name: 'Devil in Her Bed', tag: 'Film / Poster', img: '/static/images/design/devil-in-her-bed.jpg' },
   { name: 'The Golden Penny', tag: 'Book cover', img: '/static/images/design/golden-penny.jpg' },
   { name: 'In Response: Rise Up!', tag: 'Theatre / Poster', img: '/static/images/design/in-response.jpg' },
-  { name: "Michael Colyar's Momma Is Back!", tag: 'Comedy / Poster', img: '/static/images/design/momma-is-back.jpg' },
+  { name: "Michael Colyar's Momma Is Back!", tag: 'Comedy / Flyer', img: '/static/images/design/momma-is-back.jpg' },
   { name: 'Milkcrate Monologues Vol. 1', tag: 'Theatre / Poster', img: '/static/images/design/milkcrate-monologues.jpg' },
-  { name: 'Monologue Slam', tag: 'Theatre / Poster', img: '/static/images/design/monologue-slam.jpg' },
+  { name: 'Monologue Slam', tag: 'Theatre / Flyer', img: '/static/images/design/monologue-slam.jpg' },
   { name: 'Munyungo — Morning Sun', tag: 'Concert / Poster', img: '/static/images/design/munyungo.jpg' },
   { name: 'Robbins Nest Wellness', tag: 'Identity / Logo', img: '/static/images/design/robbins-nest.jpg' },
   { name: 'Still Standing', tag: 'Book cover', img: '/static/images/design/still-standing.jpg' },
@@ -248,12 +248,12 @@ function aboutHtml() {
         <p class="body-lg reveal" style="--rd:120ms">
           Jaimyon Parker is an actor and multidisciplinary artist whose practice moves fluidly
           between performance, production, and visual craft. Founder of Skeleton Key Pictures,
-          a company built to develop patient, character-first art. His photography and
+          a company built to develop patient, character-first art; his photography and
           graphic work extend the same instinct — quiet observation, cinematic composition, and
           a careful eye for the interior life of things.
         </p>
         <p class="body-lg reveal" style="--rd:220ms">
-          Based between Los Angeles, Texas, and New York. Available for select collaborations across
+          Based between Los Angeles, Texas, Atlanta, and New York. Available for select collaborations across
           film, television, editorial, and brand.
         </p>
         <div class="about-roles">
@@ -317,7 +317,7 @@ function actingHtml() {
     <div class="acting-hero">
       <div class="reveal">
         <span class="eyebrow"><span class="dot"></span>2025 Showreel</span>
-        <h2 class="display-3">Doesn't matter the medium, for an artist, it's always about <em style="font-style:italic;opacity:.55">THE TRUTH.</em></h2>
+        <h2 class="display-3">Doesn't matter the medium, for an artist, it's always about <em style="font-style:italic;opacity:.55">the truth.</em></h2>
       </div>
       <div class="reel-wrap">
         <div class="reel reveal" style="--rd:180ms" role="button" tabindex="0" aria-label="Play ${REEL_OPTIONS[0].label}"${REEL_OPTIONS[0].youtubeId ? ` data-youtube-id="${REEL_OPTIONS[0].youtubeId}"` : ''}>
