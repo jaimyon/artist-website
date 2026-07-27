@@ -103,8 +103,8 @@ const SERIES = [
   {
     num: 'S01',
     title: 'People',
-    year: '2024',
-    loc: 'Los Angeles',
+    year: '2026',
+    loc: 'Copyright &copy; Skeleton Key Pictures',
     layout: 'layout-a',
     images: [
       '/static/images/photo/s01-1.jpg',
@@ -120,9 +120,9 @@ const SERIES = [
   },
   {
     num: 'S02',
-    title: 'Nature',
-    year: '2023–24',
-    loc: 'NYC · LA · Mexico City',
+    title: 'The World Around Us',
+    year: '2026',
+    loc: 'Copyright &copy; Skeleton Key Pictures',
     layout: 'layout-b',
     images: [
       '/static/images/photo/s02-1.jpg',
@@ -134,8 +134,8 @@ const SERIES = [
   {
     num: 'S03',
     title: 'Art/Light/Shadow',
-    year: '2023',
-    loc: 'Baja California',
+    year: '2026',
+    loc: 'Copyright &copy; Skeleton Key Pictures',
     layout: 'layout-c',
     images: [
       '/static/images/photo/s03-1.jpg',
