@@ -83,16 +83,16 @@ const REEL_OPTIONS = [
 ]
 
 const SLATE = [
-  { title: 'Therapy', meta: 'Short · Dir. Elana Luo · 2024', status: 'Festival Run', cls: '' },
+  { title: 'Therapy', meta: 'Short · Dir. Elana Luo', status: 'Festival Run', cls: '' },
   { title: 'Devil In Her Bed', meta: 'Short · Dirs. M. Blessing &amp; J. Parker', status: 'Released', cls: 'released' },
-  { title: 'Guilty', meta: 'Stage Production · Stella Adler Theatre · 2018', status: 'Released', cls: 'released' },
+  { title: 'Guilty', meta: 'Stage Production · Stella Adler Theatre', status: 'Released', cls: 'released' },
   { title: 'Wind In The Willow Tree', meta: 'Web Series', status: 'Released', cls: 'dev' },
 ]
 
 const PRESS = [
   { fest: 'Los Angeles Short Film Awards', note: 'Best Comedy - 2026' },
   { fest: 'Indie Night Film Festival', note: 'Official Selection - 2025' },
-  { fest: 'San Diego Indipendent Cinema Awards', note: 'Official Selection - 2025' },
+  { fest: 'San Diego Independent Cinema Awards', note: 'Official Selection - 2025' },
   { fest: 'Atlanta Cinema Awards', note: 'Official Selection - 2024' },
   { fest: 'Hollywood Best Indie Film Awards', note: 'Official Selection - 2024' },
   { fest: 'Prague International Film Awards', note: 'Official Selection - 2024' },
@@ -301,7 +301,7 @@ function actingHtml() {
     <div class="acting-hero">
       <div class="reveal">
         <span class="eyebrow"><span class="dot"></span>2025 Showreel</span>
-        <h2 class="display-3">Doesn't matter what medium, location, or audience, for an artist, it's always about <em style="font-style:italic;opacity:.55">the truth.</em></h2>
+        <h2 class="display-3">Doesn't matter the medium, for an artist, it's always about <em style="font-style:italic;opacity:.55">THE TRUTH.</em></h2>
       </div>
       <div class="reel-wrap">
         <div class="reel reveal" style="--rd:180ms" role="button" tabindex="0" aria-label="Play ${REEL_OPTIONS[0].label}"${REEL_OPTIONS[0].youtubeId ? ` data-youtube-id="${REEL_OPTIONS[0].youtubeId}"` : ''}>
