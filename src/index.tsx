@@ -155,15 +155,18 @@ const SERIES = [
 ]
 
 const DESIGN_WORK = [
-  { name: 'Halcyon', tag: 'Film / Key art', img: '/static/images/design/halcyon.jpg' },
-  { name: 'Nightbloom', tag: 'Film / Title design', img: '/static/images/design/nightbloom.jpg' },
-  { name: 'Northlight Journal', tag: 'Editorial', img: '/static/images/design/northlight.jpg' },
-  { name: 'SKP Slate 24', tag: 'Identity', img: '/static/images/design/skp-slate.jpg' },
-  { name: 'Room in Salamanca', tag: 'Poster', img: '/static/images/design/salamanca.jpg' },
-  { name: 'The Cartographer', tag: 'Book cover', img: '/static/images/design/cartographer.jpg' },
-  { name: 'Interior. Kitchen.', tag: 'Film / Titles', img: '/static/images/design/interior-kitchen.jpg' },
-  { name: 'Field Guide № 03', tag: 'Print', img: '/static/images/design/field-guide.jpg' },
-  { name: 'Blueprint OST', tag: 'Sleeve', img: '/static/images/design/blueprint-ost.jpg' },
+  { name: 'Bus Stops', tag: 'Theatre / Poster', img: '/static/images/design/bus-stops.jpg' },
+  { name: 'Devil in Her Bed', tag: 'Film / Poster', img: '/static/images/design/devil-in-her-bed.jpg' },
+  { name: 'The Golden Penny', tag: 'Book cover', img: '/static/images/design/golden-penny.jpg' },
+  { name: 'In Response: Rise Up!', tag: 'Theatre / Poster', img: '/static/images/design/in-response.jpg' },
+  { name: "Michael Colyar's Momma Is Back!", tag: 'Comedy / Poster', img: '/static/images/design/momma-is-back.jpg' },
+  { name: 'Milkcrate Monologues Vol. 1', tag: 'Theatre / Poster', img: '/static/images/design/milkcrate-monologues.jpg' },
+  { name: 'Monologue Slam', tag: 'Theatre / Poster', img: '/static/images/design/monologue-slam.jpg' },
+  { name: 'Munyungo — Morning Sun', tag: 'Concert / Poster', img: '/static/images/design/munyungo.jpg' },
+  { name: 'Robbins Nest Wellness', tag: 'Identity / Logo', img: '/static/images/design/robbins-nest.jpg' },
+  { name: 'Still Standing', tag: 'Book cover', img: '/static/images/design/still-standing.jpg' },
+  { name: 'All New Sh*t!', tag: 'Comedy / Poster', img: '/static/images/design/all-new-shit.jpg' },
+  { name: 'Therapy', tag: 'Film / Poster', img: '/static/images/design/therapy.jpg' },
 ]
 
 function navHtml() {
