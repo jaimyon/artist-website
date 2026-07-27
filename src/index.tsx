@@ -129,6 +129,10 @@ const SERIES = [
       '/static/images/photo/s02-2.jpg',
       '/static/images/photo/s02-3.jpg',
       '/static/images/photo/s02-4.jpg',
+      '/static/images/photo/s02-5.jpg',
+      '/static/images/photo/s02-6.jpg',
+      '/static/images/photo/s02-7.jpg',
+      '/static/images/photo/s02-8.jpg',
     ],
   },
   {

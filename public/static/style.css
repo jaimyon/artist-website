@@ -708,11 +708,8 @@ h1, h2, h3, h4 { font-family: var(--display); font-weight: 400; margin: 0; line-
 .series-grid.layout-a { grid-template-columns: repeat(3, 1fr); }
 .series-grid.layout-a > * { aspect-ratio: 3/4; }
 
-.series-grid.layout-b { grid-template-columns: 1fr 1fr 2fr; grid-template-rows: auto auto; }
-.series-grid.layout-b > *:nth-child(1) { aspect-ratio: 4/3; }
-.series-grid.layout-b > *:nth-child(2) { aspect-ratio: 4/3; }
-.series-grid.layout-b > *:nth-child(3) { grid-row: 1 / 3; grid-column: 3; aspect-ratio: 3/4; }
-.series-grid.layout-b > *:nth-child(4) { grid-column: 1 / 3; aspect-ratio: 16/9; }
+.series-grid.layout-b { grid-template-columns: repeat(3, 1fr); }
+.series-grid.layout-b > * { aspect-ratio: 3/4; }
 
 .series-grid.layout-c { grid-template-columns: repeat(3, 1fr); }
 .series-grid.layout-c > * { aspect-ratio: 1/1; }
