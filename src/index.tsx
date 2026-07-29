@@ -453,8 +453,8 @@ function contactHtml() {
     <div class="contact-grid">
       <a class="contact-card reveal" href="mailto:booking@jaimyon.com">
         <div class="lbl">01 — Acting</div>
-        <div><div class="kind">Booking</div><div class="desc">Feature, series, and select commercial inquiries via Harper &amp; Vale.</div></div>
-        <div class="email">booking@jaimyon.com</div>
+        <div><div class="kind">Booking</div><div class="desc">Feature, series, commercial, stage, and select live event inquiries via ATN Entertainment.</div></div>
+        <div class="email">jennifer@atnentertainment.com</div>
       </a>
       <a class="contact-card reveal" style="--rd:80ms" href="mailto:photodesign@jaimyon.com">
         <div class="lbl">02 — Creative</div>
@@ -469,7 +469,7 @@ function contactHtml() {
       <a class="contact-card reveal" style="--rd:240ms" href="mailto:submissions@skeletonkeypictures.com">
         <div class="lbl">04 — SKP</div>
         <div><div class="kind">Submissions</div><div class="desc">Scripts, treatments, and partnership inquiries for Skeleton Key Pictures.</div></div>
-        <div class="email">submissions@skeletonkeypictures.com</div>
+        <div class="email">skp@jaimyon.com</div>
       </a>
     </div>
 
